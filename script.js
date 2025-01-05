@@ -72,8 +72,34 @@ const quizData = {
         { question: "Who played the role of 'Mithaiwala' in the movie 'Pyaar Ka Punchnama'?", options: ["Kartik Aaryan", "Ayushmann Khurrana", "Vicky Kaushal", "Rajkummar Rao"], answer: "Kartik Aaryan" },
         { question: "In which movie did Akshay Kumar play a double role?", options: ["Hera Pheri", "Khatta Meetha", "Phir Hera Pheri", "Housefull"], answer: "Phir Hera Pheri" },
         { question: "Which Bollywood actress won the Miss Universe title in 2000?", options: ["Sushmita Sen", "Aishwarya Rai", "Lara Dutta", "Priyanka Chopra"], answer: "Lara Dutta" },
-        { question: "Which Bollywood film features the song 'Kal Ho Naa Ho'?", options: ["Kabhi Alvida Naa Kehna", "Kabhi Khushi Kabhie Gham", "Kal Ho Naa Ho", "Dilwale Dulhania Le Jayenge"], answer: "Kal Ho Naa Ho" }
+        { question: "Which Bollywood film features the song 'Kal Ho Naa Ho'?", options: ["Kabhi Alvida Naa Kehna", "Kabhi Khushi Kabhie Gham", "Kal Ho Naa Ho", "Dilwale Dulhania Le Jayenge"], answer: "Kal Ho Naa Ho" },
+        { question: "Which Bollywood actor played the lead role in the movie 'Sultan'?", options: ["Salman Khan", "Aamir Khan", "Shah Rukh Khan", "Akshay Kumar"], answer: "Salman Khan" },
+        { question: "Which Bollywood movie features the iconic dialogue 'Mogambo Khush Hua'?", options: ["Sholay", "Mr. India", "Deewar", "Don"], answer: "Mr. India" },
+        { question: "Who played the role of 'Kabir Khan' in 'Chak De! India'?", options: ["Salman Khan", "Shah Rukh Khan", "Aamir Khan", "Akshay Kumar"], answer: "Shah Rukh Khan" },
+        { question: "Which Bollywood actress is known as 'Dream Girl'?", options: ["Hema Malini", "Madhubala", "Sridevi", "Rekha"], answer: "Hema Malini" },
+        { question: "Who composed the music for the movie 'Dilwale Dulhania Le Jayenge'?", options: ["A.R. Rahman", "Anu Malik", "Jatin-Lalit", "Shankar-Ehsaan-Loy"], answer: "Jatin-Lalit" },
+        { question: "Which Bollywood film features the song 'Balam Pichkari'?", options: ["Yeh Jawaani Hai Deewani", "Student of the Year", "Kalank", "Raazi"], answer: "Yeh Jawaani Hai Deewani" },
+        { question: "Which Bollywood actor is known for the dialogue 'Kitne Aadmi The'?", options: ["Amjad Khan", "Dilip Kumar", "Amitabh Bachchan", "Dharmendra"], answer: "Amjad Khan" },
+        { question: "Who directed the movie 'Dil Chahta Hai'?", options: ["Farhan Akhtar", "Karan Johar", "Zoya Akhtar", "Imtiaz Ali"], answer: "Farhan Akhtar" },
+        { question: "Which Bollywood film is inspired by the Hollywood movie 'Forrest Gump'?", options: ["PK", "Laal Singh Chaddha", "Dangal", "3 Idiots"], answer: "Laal Singh Chaddha" },
+        { question: "Which Bollywood movie is based on the Indian hockey team's first Olympic gold medal?", options: ["Gold", "Chak De! India", "Lagaan", "Dangal"], answer: "Gold" },
+        { question: "Which Bollywood movie features the song 'Tera Ban Jaunga'?", options: ["Kabir Singh", "Student of the Year", "Tamasha", "Raazi"], answer: "Kabir Singh" },
+        { question: "Which actress starred in the movie 'Highway'?", options: ["Alia Bhatt", "Kangana Ranaut", "Deepika Padukone", "Anushka Sharma"], answer: "Alia Bhatt" },
+        { question: "Who played the role of 'Circuit' in the 'Munna Bhai' series?", options: ["Arshad Warsi", "Boman Irani", "Sanjay Dutt", "Sharman Joshi"], answer: "Arshad Warsi" },
+        { question: "Which Bollywood actor played the lead role in 'Padmaavat'?", options: ["Shahid Kapoor", "Ranveer Singh", "Salman Khan", "Hrithik Roshan"], answer: "Ranveer Singh" },
+        { question: "Which Bollywood film was the first to win a Filmfare Award?", options: ["Do Bigha Zamin", "Mother India", "Mughal-e-Azam", "Bandhan"], answer: "Do Bigha Zamin" },
+        { question: "Which Bollywood actor is known for his comic timing in 'Golmaal' series?", options: ["Ajay Devgn", "Tusshar Kapoor", "Arshad Warsi", "Shreyas Talpade"], answer: "Arshad Warsi" },
+        { question: "Which Bollywood film features the dialogue 'Don Ko Pakadna Mushkil Hi Nahi Namumkin Hai'?", options: ["Don", "Sholay", "Agneepath", "Deewar"], answer: "Don" },
+        { question: "Who played the role of 'Pooja' in 'Dil Toh Pagal Hai'?", options: ["Karisma Kapoor", "Madhuri Dixit", "Kajol", "Sridevi"], answer: "Madhuri Dixit" },
+        { question: "Which Bollywood film is based on a mathematician, Anand Kumar?", options: ["Super 30", "Chhichhore", "M.S. Dhoni: The Untold Story", "Taare Zameen Par"], answer: "Super 30" },
+        { question: "Who directed the movie 'Kabhi Khushi Kabhie Gham'?", options: ["Karan Johar", "Farah Khan", "Sanjay Leela Bhansali", "Aditya Chopra"], answer: "Karan Johar" },
+        { question: "Which Bollywood movie features the song 'Galliyan'?", options: ["Ek Villain", "Baaghi", "Student of the Year", "Raees"], answer: "Ek Villain" },
+        { question: "Who played the lead role in the movie 'Paa'?", options: ["Amitabh Bachchan", "Abhishek Bachchan", "Rishi Kapoor", "Hrithik Roshan"], answer: "Amitabh Bachchan" },
+        { question: "Which Bollywood movie is based on the life of Milkha Singh?", options: ["Dangal", "Bhaag Milkha Bhaag", "Lagaan", "Chhichhore"], answer: "Bhaag Milkha Bhaag" },
+        { question: "Which Bollywood actress starred in 'Black'?", options: ["Rani Mukerji", "Kareena Kapoor", "Aishwarya Rai", "Priyanka Chopra"], answer: "Rani Mukerji" },
+        { question: "Which Bollywood movie features the iconic dance number 'Kajra Re'?", options: ["Bunty Aur Babli", "Dil Se", "Kabhi Khushi Kabhie Gham", "Devdas"], answer: "Bunty Aur Babli" }
     ],
+    
     History: [
         { question: "Who was the first Emperor of the Maurya Empire?", options: ["Ashoka", "Chandragupta Maurya", "Bindusara", "Kautilya"], answer: "Chandragupta Maurya" },
         { question: "Who was the first woman Prime Minister of India?", options: ["Sonia Gandhi", "Indira Gandhi", "Pratibha Patil", "Sarojini Naidu"], answer: "Indira Gandhi" },
@@ -90,8 +116,38 @@ const quizData = {
         { question: "Which famous Indian leader is known as the 'Iron Man of India'?", options: ["Lal Bahadur Shastri", "Sardar Vallabhbhai Patel", "Subhas Chandra Bose", "Mahatma Gandhi"], answer: "Sardar Vallabhbhai Patel" },
         { question: "Which movement did Mahatma Gandhi launch in 1942?", options: ["Non-Cooperation Movement", "Quit India Movement", "Civil Disobedience Movement", "Salt March"], answer: "Quit India Movement" },
         { question: "Who was the first Sultan of Delhi?", options: ["Qutb-ud-Din Aibak", "Iltutmish", "Balban", "Sikandar Lodi"], answer: "Qutb-ud-Din Aibak" },
-        { question: "Who was the founder of the Gupta Empire?", options: ["Chandragupta Maurya", "Samudragupta", "Ashoka", "Chandragupta I"], answer: "Chandragupta I" }
+        { question: "Who was the founder of the Gupta Empire?", options: ["Chandragupta Maurya", "Samudragupta", "Ashoka", "Chandragupta I"], answer: "Chandragupta I" },
+        { question: "What was the purpose of the Dandi March?", options: ["To protest land taxes", "To break the salt law", "To demand independence", "To oppose the partition of India"], answer: "To break the salt law" },
+        { question: "Which Indian king is known for spreading Buddhism?", options: ["Ashoka", "Chandragupta Maurya", "Samudragupta", "Harsha"], answer: "Ashoka" },
+        { question: "Who was the Viceroy of India during the partition of Bengal in 1905?", options: ["Lord Curzon", "Lord Mountbatten", "Lord Dalhousie", "Lord Ripon"], answer: "Lord Curzon" },
+        { question: "Who established the Mughal Empire in India?", options: ["Akbar", "Babur", "Humayun", "Aurangzeb"], answer: "Babur" },
+        { question: "Which ancient university was a center for learning in India?", options: ["Nalanda", "Taxila", "Vikramshila", "All of the above"], answer: "All of the above" },
+        { question: "Who founded the Indian National Congress?", options: ["Mahatma Gandhi", "Dadabhai Naoroji", "A.O. Hume", "Bal Gangadhar Tilak"], answer: "A.O. Hume" },
+        { question: "Which ruler built the Grand Trunk Road?", options: ["Akbar", "Sher Shah Suri", "Ashoka", "Chandragupta Maurya"], answer: "Sher Shah Suri" },
+        { question: "Who was the last ruler of the Mughal Empire?", options: ["Bahadur Shah II", "Aurangzeb", "Shah Jahan", "Akbar II"], answer: "Bahadur Shah II" },
+        { question: "Who introduced the Doctrine of Lapse?", options: ["Lord Wellesley", "Lord Dalhousie", "Lord Ripon", "Lord Cornwallis"], answer: "Lord Dalhousie" },
+        { question: "Which empire was known for its rock-cut architecture?", options: ["Maurya Empire", "Gupta Empire", "Chola Empire", "Rashtrakuta Empire"], answer: "Rashtrakuta Empire" },
+        { question: "Which Indian city was formerly known as Bombay?", options: ["Delhi", "Mumbai", "Chennai", "Kolkata"], answer: "Mumbai" },
+        { question: "Who was the first President of India?", options: ["Rajendra Prasad", "Jawaharlal Nehru", "Subhas Chandra Bose", "Sardar Vallabhbhai Patel"], answer: "Rajendra Prasad" },
+        { question: "Which Indian leader gave the slogan 'Jai Jawan Jai Kisan'?", options: ["Indira Gandhi", "Lal Bahadur Shastri", "Jawaharlal Nehru", "Subhas Chandra Bose"], answer: "Lal Bahadur Shastri" },
+        { question: "Who was the first Governor-General of India?", options: ["Lord Mountbatten", "C. Rajagopalachari", "Warren Hastings", "Lord Dalhousie"], answer: "Warren Hastings" },
+        { question: "Who was known as the 'Napoleon of India'?", options: ["Chandragupta Maurya", "Samudragupta", "Harsha", "Ashoka"], answer: "Samudragupta" },
+        { question: "Which ancient text is considered India's first treatise on politics?", options: ["Ramayana", "Mahabharata", "Arthashastra", "Vedas"], answer: "Arthashastra" },
+        { question: "Who led the Revolt of 1857 in Kanpur?", options: ["Bahadur Shah II", "Tatya Tope", "Rani Laxmibai", "Nana Sahib"], answer: "Nana Sahib" },
+        { question: "Which year did the Jallianwala Bagh massacre occur?", options: ["1915", "1919", "1920", "1930"], answer: "1919" },
+        { question: "Who founded the Indian National Army?", options: ["Subhas Chandra Bose", "Bhagat Singh", "Mahatma Gandhi", "Jawaharlal Nehru"], answer: "Subhas Chandra Bose" },
+        { question: "Who is known as the 'Father of Indian Renaissance'?", options: ["Raja Ram Mohan Roy", "Swami Vivekananda", "Rabindranath Tagore", "Bal Gangadhar Tilak"], answer: "Raja Ram Mohan Roy" },
+        { question: "Which battle marked the beginning of British rule in India?", options: ["Battle of Buxar", "Battle of Plassey", "Battle of Wandiwash", "Battle of Seringapatam"], answer: "Battle of Plassey" },
+        { question: "Which ruler built the famous Sun Temple at Konark?", options: ["Raja Raja Chola", "Narasimhadeva I", "Ashoka", "Chandragupta I"], answer: "Narasimhadeva I" },
+        { question: "Who was the founder of the Maratha Empire?", options: ["Shivaji", "Sambhaji", "Bajirao I", "Balaji Vishwanath"], answer: "Shivaji" },
+        { question: "Which act introduced the system of separate electorates in India?", options: ["Government of India Act 1935", "Morley-Minto Reforms", "Montagu-Chelmsford Reforms", "Indian Councils Act 1909"], answer: "Morley-Minto Reforms" },
+        { question: "Which movement is associated with the slogan 'Do or Die'?", options: ["Quit India Movement", "Civil Disobedience Movement", "Non-Cooperation Movement", "Salt March"], answer: "Quit India Movement" },
+        { question: "Who was the architect of the Indian Constitution?", options: ["Jawaharlal Nehru", "B.R. Ambedkar", "Mahatma Gandhi", "Rajendra Prasad"], answer: "B.R. Ambedkar" },
+        { question: "Which Indian leader is known as the 'Lion of Punjab'?", options: ["Bhagat Singh", "Lala Lajpat Rai", "Sardar Patel", "Subhas Chandra Bose"], answer: "Lala Lajpat Rai" },
+        { question: "Which dynasty built the Khajuraho temples?", options: ["Maurya", "Gupta", "Chandelas", "Chola"], answer: "Chandelas" },
+        { question: "What is the significance of the Champaran movement?", options: ["Opposition to the Rowlatt Act", "First Satyagraha movement in India", "Demand for Poorna Swaraj", "Indigo farmers' rights"], answer: "Indigo farmers' rights" }
     ],
+    
     Sports: [
         { question: "Which country won the FIFA World Cup in 2018?", options: ["Germany", "Brazil", "France", "Argentina"], answer: "France" },
         { question: "Who holds the record for the most Olympic gold medals?", options: ["Usain Bolt", "Michael Phelps", "Carl Lewis", "Mark Spitz"], answer: "Michael Phelps" },
@@ -123,16 +179,23 @@ const quizData = {
         { question: "Which country hosted the 2000 Summer Olympics?", options: ["Australia", "China", "Greece", "USA"], answer: "Australia" },
         { question: "Which country won the first ever FIFA World Cup in 1930?", options: ["Brazil", "Germany", "Italy", "Uruguay"], answer: "Uruguay" },
         { question: "Which famous tennis player is known for his rivalry with Roger Federer?", options: ["Rafael Nadal", "Novak Djokovic", "Andy Murray", "Pete Sampras"], answer: "Rafael Nadal" },
-        { question: "In tennis, what piece of fruit is found at the top of the trophy awarded to the winner of the US Open?", options: ["Orange", "Apple", "Pineapple", "Banana"], answer: "Pineapple" },
-        { question: "Which NBA player is known as 'King James'?", options: ["Kobe Bryant", "LeBron James", "Michael Jordan", "Shaquille O'Neal"], answer: "LeBron James" },
-        { question: "Which country is known for the sport of ice skating?", options: ["USA", "Russia", "Canada", "Finland"], answer: "Russia" },
-        { question: "Which country has the most World Cup titles in football?", options: ["Brazil", "Germany", "Italy", "Argentina"], answer: "Brazil" },
-        { question: "Who was the first gymnast to score a perfect 10 in the Olympics?", options: ["Nadia Comăneci", "Mary Lou Retton", "Simone Biles", "Gabby Douglas"], answer: "Nadia Comăneci" },
         { question: "What type of animal is used in the sport of polo?", options: ["Horse", "Elephant", "Dog", "Camel"], answer: "Horse" },
-        { question: "Which city is home to the famous football club, Barcelona?", options: ["Madrid", "Paris", "Rome", "Barcelona"], answer: "Barcelona" },
         { question: "Who won the 2020 NBA Championship?", options: ["Miami Heat", "Los Angeles Lakers", "Toronto Raptors", "Golden State Warriors"], answer: "Los Angeles Lakers" },
-        { question: "Which sport is known as 'The Beautiful Game'?", options: ["Football", "Tennis", "Cricket", "Basketball"], answer: "Football" }
+        { question: "Which country has won the most cricket World Cups?", options: ["India", "Australia", "West Indies", "Pakistan"], answer: "Australia" },
+        { question: "In which sport is the Ryder Cup contested?", options: ["Golf", "Tennis", "Football", "Baseball"], answer: "Golf" },
+        { question: "Which country hosted the 2014 FIFA World Cup?", options: ["Brazil", "Russia", "Germany", "South Africa"], answer: "Brazil" },
+        { question: "Which player holds the record for the most home runs in MLB history?", options: ["Barry Bonds", "Babe Ruth", "Hank Aaron", "Alex Rodriguez"], answer: "Barry Bonds" },
+        { question: "Which team won the first Super Bowl?", options: ["Green Bay Packers", "New York Giants", "Dallas Cowboys", "Kansas City Chiefs"], answer: "Green Bay Packers" },
+        { question: "Which athlete is known for the quote, 'Float like a butterfly, sting like a bee'?", options: ["Muhammad Ali", "Mike Tyson", "Sugar Ray Leonard", "George Foreman"], answer: "Muhammad Ali" },
+        { question: "Who is the youngest player to score in a FIFA World Cup?", options: ["Lionel Messi", "Pele", "Kylian Mbappe", "Diego Maradona"], answer: "Pele" },
+        { question: "In which sport would you find the terms 'love' and 'deuce'?", options: ["Badminton", "Tennis", "Squash", "Ping Pong"], answer: "Tennis" },
+        { question: "Which country has won the most Olympic medals overall?", options: ["USA", "China", "Russia", "Germany"], answer: "USA" },
+        { question: "Which team is known as the 'All Blacks'?", options: ["New Zealand Rugby Team", "South Africa Rugby Team", "England Cricket Team", "Australian Soccer Team"], answer: "New Zealand Rugby Team" },
+        { question: "What is the height of a regulation basketball hoop?", options: ["10 feet", "12 feet", "9 feet", "11 feet"], answer: "10 feet" },
+        { question: "Who is known as the 'Flying Sikh' of India?", options: ["Milkha Singh", "Sachin Tendulkar", "Dhanraj Pillay", "Kapil Dev"], answer: "Milkha Singh" },
+        { question: "Which country won the most medals in the 2021 Tokyo Olympics?", options: ["USA", "China", "Japan", "Russia"], answer: "USA" }
     ],
+    
     Science: [
         { question: "What is the chemical symbol for water?", options: ["H2O", "O2", "CO2", "H2"], answer: "H2O" },
         { question: "Who developed the theory of relativity?", options: ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"], answer: "Albert Einstein" },
@@ -161,9 +224,33 @@ const quizData = {
         { question: "Which metal is liquid at room temperature?", options: ["Mercury", "Lead", "Copper", "Iron"], answer: "Mercury" },
         { question: "Who is credited with the discovery of the electron?", options: ["Isaac Newton", "Albert Einstein", "J.J. Thomson", "Niels Bohr"], answer: "J.J. Thomson" },
         { question: "What is the freezing point of water in Celsius?", options: ["0°C", "100°C", "-273°C", "32°F"], answer: "0°C" },
-        { question: "What is the study of fungi called?", options: ["Botany", "Zoology", "Mycology", "Entomology"], answer: "Mycology" }
+        { question: "What is the study of fungi called?", options: ["Botany", "Zoology", "Mycology", "Entomology"], answer: "Mycology" },
+        { question: "What is the primary function of red blood cells?", options: ["Fight infections", "Carry oxygen", "Digest food", "Protect the body"], answer: "Carry oxygen" },
+        { question: "What is the chemical symbol for potassium?", options: ["K", "P", "Po", "Pt"], answer: "K" },
+        { question: "What is the smallest planet in the solar system?", options: ["Mercury", "Mars", "Venus", "Pluto"], answer: "Mercury" },
+        { question: "What is the most common type of rock found on Earth?", options: ["Sedimentary", "Metamorphic", "Igneous", "Limestone"], answer: "Igneous" },
+        { question: "What is the second most abundant element in the Earth's crust?", options: ["Silicon", "Oxygen", "Aluminum", "Iron"], answer: "Silicon" },
+        { question: "What type of animal is a dolphin?", options: ["Mammal", "Reptile", "Fish", "Amphibian"], answer: "Mammal" },
+        { question: "What is the basic unit of life?", options: ["Atom", "Molecule", "Cell", "Organ"], answer: "Cell" },
+        { question: "What is the term for a substance that speeds up a chemical reaction?", options: ["Catalyst", "Solvent", "Acid", "Base"], answer: "Catalyst" },
+        { question: "What is the main component of the Earth's core?", options: ["Iron", "Nickel", "Oxygen", "Sulfur"], answer: "Iron" },
+        { question: "What is the chemical formula for sulfuric acid?", options: ["H2SO4", "HCl", "HNO3", "NaOH"], answer: "H2SO4" },
+        { question: "What is the boiling point of water in Celsius?", options: ["50°C", "100°C", "150°C", "200°C"], answer: "100°C" },
+        { question: "Which element is a noble gas?", options: ["Oxygen", "Helium", "Carbon", "Nitrogen"], answer: "Helium" },
+        { question: "What is the main source of energy for the Earth?", options: ["The Sun", "The Moon", "Geothermal", "Nuclear Energy"], answer: "The Sun" },
+        { question: "Which vitamin is produced by the human body when exposed to sunlight?", options: ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"], answer: "Vitamin D" },
+        { question: "What is the most common state of matter in the universe?", options: ["Solid", "Liquid", "Gas", "Plasma"], answer: "Plasma" },
+        { question: "What is the name of the galaxy that includes our solar system?", options: ["Andromeda", "Milky Way", "Whirlpool", "Sombrero"], answer: "Milky Way" },
+        { question: "What is the study of earthquakes called?", options: ["Seismology", "Geology", "Meteorology", "Astronomy"], answer: "Seismology" },
+        { question: "Which organ produces insulin in the human body?", options: ["Liver", "Kidneys", "Pancreas", "Stomach"], answer: "Pancreas" }
     ]
+    
 };
+
+console.log(quizData['Bollywood'].length);
+console.log(quizData['History'].length);
+console.log(quizData['Sports'].length);
+console.log(quizData['Science'].length);
 
 
 const first = document.getElementById('first');
@@ -257,7 +344,6 @@ first.addEventListener('submit', (event)=>{
     console.log(answers);
 
     for(let [key, value] of finalData.entries()){
-        console.log(key, value);
         if(answers[key] == value)
             ans++;
     }
@@ -271,4 +357,7 @@ first.addEventListener('submit', (event)=>{
 
 
 });
+
+
+
 
