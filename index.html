@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>QuizMania</title>
+</head>
+<body class="bg-red-100 overflow-scroll flex-col flex items-center p-4">
+
+    <p id="txt" class="text-4xl z-50 fixed font-bold font-serif animate-bounce text-amber-600">QUIZ!</p>
+
+    <p id="result" class="mt-32 px-4 py-2 rounded-md shadow-md hidden shadow-green-200 bg-green-600 text-white animate-pulse  font-bold text-2xl font-serif"></p>
+
+    <form id="first" class="show mt-14" action="">
+        <div class="text-lg font-medium p-3 bg-red-300 rounded-md shadow-md shadow-gray-500">
+            <p>Choose your Quiz type</p>
+            <label for="">
+                <input name="type" value="Sports" type="radio">
+                Sports
+            </label><br>
+            <label for="">
+                <input name="type" value="Science" type="radio">
+                Science
+            </label><br>
+            <label for="">
+                <input name="type" value="Bollywood" type="radio">
+                Bollywood
+            </label><br>
+            <label for="">
+                <input name="type" value="History" type="radio">
+                History
+            </label><br>
+            <p class="m-2">Enter number of question</p>
+            <input id="qno" class="px-2 py-1 border-gray-700 border outline-none shadow-md m-1 rounded-md" type="number" min="1" max="50" placeholder="1-50"><br>
+            <button class="m-3 px-4 hover:scale-105 duration-200 py-2 bg-cyan-600 text-white rounded-md shadow-md shadow-blue-300 " type="submit">Next</button>
+        </div>
+    </form>
+
+    <form id="second" action="">
+        <div class=" hidden mt-14 p-4 rounded-md shadow-lg shadow-gray-500 bg-blue-200 flex-col gap-3 text-lg font-medium" id="form">
+
+
+        
+            <button id="sbmt" class="bg-blue-500 px-4 py-2 rounded-sm shadow-md shadow-white text-white font-medium text-center" type="submit">Submit</button>
+        </div>
+    </form>
+
+
+</body>
+<script src="./script.js"></script>
+</html>

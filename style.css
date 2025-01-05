@@ -1,0 +1,61 @@
+#show,.show{
+    animation: grow 3s forwards;
+    opacity: 0;
+    transition: ease-out;
+}
+
+/* form{
+    display: none;
+} */
+@keyframes grow {
+    0% {
+        translate: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* #quiz{
+    animation: hide 3s forwards;
+    opacity: 0;
+    transition: ease-out;
+}
+
+@keyframes hide{
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        translate: scale(0);
+        opacity: 0;
+    }
+} */
+
+input:hover{
+    /* mask-repeat: 5px; */
+    /* padding: 50px; */
+    scale: 120%;
+    transition-duration: 300ms;
+    cursor: pointer;
+    /* transition: 3s; */
+}
+
+/* For most browsers */
+/* #form{ */
+    /* scrollbar-width: none; Firefox */
+    /* -ms-overflow-style: none; IE and Edge */
+/* } */
+
+/* #form::-webkit-scrollbar { */
+    /* display: none; Chrome, Safari, and Opera */
+/* } */
+
+
+label{
+    padding: 5px;
+    margin: 10px;
+}
