@@ -179,8 +179,6 @@ first.addEventListener('submit', (event)=>{
         categ = value;
     })
 
-    
-    // console.log(categ, qno)
 
     const array = new Array(...quizData[categ]);
 
@@ -191,12 +189,6 @@ first.addEventListener('submit', (event)=>{
 
 
     function getQuestion(){
-        // const data = new Set();
-
-        // while(data.size!=qno){
-        //     let index = Math.floor(Math.random()*array.length);
-        //     data.add(array[index]);
-        // }
 
         let data = [];
 
@@ -205,16 +197,14 @@ first.addEventListener('submit', (event)=>{
         for(let i = 0; i<qno; i++){
             let index = Math.floor(Math.random()*length);
             data.push(array[index]);
-            let temp = array[index];
-            array[index] = array[length-1];
-            array[length-1] = temp;
+            [array[index], array[length-1]] = [array[length-1], array[index]];
+            length--;
         }
 
         return[...data];
     }
 
     const finalQuestion = getQuestion();
-    // console.log(finalQuestion);
 
     let answers={};
 
@@ -252,7 +242,6 @@ first.addEventListener('submit', (event)=>{
         
     });
 
-    // console.log(answers)
 
    const second = document.getElementById('second');
 
@@ -278,12 +267,8 @@ first.addEventListener('submit', (event)=>{
     result.innerHTML = `your score is ${ans} out of ${qno}`
     result.style.display = 'inline-block';
     result.id = 'show';
-    // console.log();
     });
 
 
 });
-
-
-
 
